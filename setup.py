@@ -17,7 +17,7 @@ TORCH_MIN_VER = '1.5.0'
 TORCH_MAX_VER = '1.11.0'
 CYTHON_MIN_VER = '0.29.20'
 INCLUDE_EXPERIMENTAL = os.getenv('KAOLIN_INSTALL_EXPERIMENTAL') is not None
-IGNORE_TORCH_VER = os.getenv('IGNORE_TORCH_VER') is not None
+IGNORE_TORCH_VER = 1
 
 # Module required before installation
 # trying to install it ahead turned out to be too unstable.
